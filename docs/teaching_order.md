@@ -2,46 +2,48 @@
 
 This document defines the order of teaching and explicitly states which language constructs are allowed and disallowed at each phase.
 
-## Basic Programming Concepts
-
-### Allowed Constructs
-- Variables
-- Data Types
-- Control Flow (if-else statements, loops)
-
-### Disallowed Constructs
-- Functions
-- Methods
-- Classes
-- Objects
-
-## Functions and Methods
-
-### Allowed Constructs
-- Defining and Calling Functions
-- Passing Arguments to Parameters
-- Using Functions as Shorthands
-
-### Disallowed Constructs
-- Classes
-- Objects
-
-## Object-Oriented Programming
-
-### Allowed Constructs
-- Classes
-- Objects
-- Encapsulation
-
-### Disallowed Constructs
-- Inheritance
-- Polymorphism
-
 ## Computational Thinking
 
 ### Allowed Constructs
-- Breaking Problems into Subproblems
-- Recursion
+- Function calls (the most basic statement)
+- Return type of functions is void
+
+### Disallowed Constructs
+- Variables
+- Constants
+
+## Constants
+
+### Allowed Constructs
+- Passing explicit values (not variables) to functions
+- Return type of functions is void
+
+### Disallowed Constructs
+- Variables
+
+## Variables
+
+### Allowed Constructs
+- Constant variables that get passed to multiple functions
+- Reassignment to these variables (with constant values, not the result of functions)
+
+### Disallowed Constructs
+- Non-void return types
+
+## Non-void Return Types
+
+### Allowed Constructs
+- Non-void return types which can be stored
+
+### Disallowed Constructs
+- None
+
+## Defining Functions
+
+### Allowed Constructs
+- Defining functions yourself
+- Transfer of values passed as arguments to parameter variables
+- Passing variables as arguments
 
 ### Disallowed Constructs
 - None

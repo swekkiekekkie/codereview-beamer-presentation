@@ -1,0 +1,44 @@
+\section{Constants}
+
+\subsection{Introduction to Constants}
+\begin{frame}[fragile]
+\frametitle{Introduction to Constants}
+\begin{itemize}
+    \item Constants are fixed values that do not change during the execution of a program.
+    \item Constants can be used to make code more readable and maintainable.
+    \item Example in C\#:
+\end{itemize}
+\begin{lstlisting}
+const double Pi = 3.14159;
+Console.WriteLine("Value of Pi: " + Pi); // Output: Value of Pi: 3.14159
+\end{lstlisting}
+\end{frame}
+
+\subsection{Using Constants in Functions}
+\begin{frame}[fragile]
+\frametitle{Using Constants in Functions}
+\begin{itemize}
+    \item Constants can be passed as arguments to functions.
+    \item Example in C\#:
+\end{itemize}
+\begin{lstlisting}
+const double Pi = 3.14159;
+
+void PrintCircleArea(double radius) {
+    double area = Pi * radius * radius;
+    Console.WriteLine("Area of the circle: " + area);
+}
+
+PrintCircleArea(5); // Output: Area of the circle: 78.53975
+\end{lstlisting}
+\end{frame}
+
+\subsection{Benefits of Using Constants}
+\begin{frame}
+\frametitle{Benefits of Using Constants}
+\begin{itemize}
+    \item Improved code readability: Constants provide meaningful names for fixed values.
+    \item Easier maintenance: Constants can be updated in one place, reducing the risk of errors.
+    \item Prevention of accidental changes: Constants cannot be modified during program execution.
+\end{itemize}
+\end{frame}

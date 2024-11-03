@@ -1,0 +1,64 @@
+\section{Non-void Return Types}
+
+\subsection{Introduction to Non-void Return Types}
+\begin{frame}[fragile]
+\frametitle{Introduction to Non-void Return Types}
+\begin{itemize}
+    \item Functions can return values of different types, not just void.
+    \item Non-void return types allow functions to produce and return results.
+    \item Example in C\#:
+\end{itemize}
+\begin{lstlisting}
+int Add(int a, int b) {
+    return a + b;
+}
+
+int result = Add(3, 4);
+Console.WriteLine(result); // Output: 7
+\end{lstlisting}
+\end{frame}
+
+\subsection{Storing Return Values}
+\begin{frame}[fragile]
+\frametitle{Storing Return Values}
+\begin{itemize}
+    \item Return values from functions can be stored in variables.
+    \item Example in C\#:
+\end{itemize}
+\begin{lstlisting}
+double CalculateArea(double radius) {
+    const double Pi = 3.14159;
+    return Pi * radius * radius;
+}
+
+double area = CalculateArea(5);
+Console.WriteLine("Area: " + area); // Output: Area: 78.53975
+\end{lstlisting}
+\end{frame}
+
+\subsection{Using Return Values in Expressions}
+\begin{frame}[fragile]
+\frametitle{Using Return Values in Expressions}
+\begin{itemize}
+    \item Return values from functions can be used in expressions.
+    \item Example in C\#:
+\end{itemize}
+\begin{lstlisting}
+int Multiply(int a, int b) {
+    return a * b;
+}
+
+int result = Multiply(3, 4) + Multiply(2, 5);
+Console.WriteLine(result); // Output: 22
+\end{lstlisting}
+\end{frame}
+
+\subsection{Benefits of Non-void Return Types}
+\begin{frame}
+\frametitle{Benefits of Non-void Return Types}
+\begin{itemize}
+    \item Non-void return types allow functions to produce and return results.
+    \item Return values can be stored in variables and used in expressions.
+    \item Non-void return types make functions more versatile and reusable.
+\end{itemize}
+\end{frame}

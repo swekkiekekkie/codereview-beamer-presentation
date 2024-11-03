@@ -6,16 +6,6 @@ Computational thinking is a problem-solving process that involves breaking down 
 ## Breaking Problems into Subproblems
 One of the key principles of computational thinking is breaking problems into subproblems. This can be done recursively until you arrive at primitives that your programming language or libraries have implemented. Here are some examples:
 
-### Example 1: Control Flow
-In the `docs/basic_programming_concepts.md` file, the concept of control flow is broken down into subproblems using if-else statements to handle different conditions.
-```csharp
-if (age > 18) {
-    Console.WriteLine("Adult");
-} else {
-    Console.WriteLine("Minor");
-}
-```
-
 ### Example 2: Swapping Variables
 In the `docs/functions_and_methods.md` file, the `Swap` function is an example of breaking down the problem of swapping two variables into smaller steps: storing one value in a temporary variable, assigning the second value to the first variable, and then assigning the temporary value to the second variable.
 ```csharp
