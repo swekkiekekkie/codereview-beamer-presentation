@@ -49,3 +49,6 @@ In the refactored code, we have defined two functions: `CalculateArea` and `Calc
 
 ## Conclusion
 Using functions as shorthands is a powerful technique to avoid repetition and improve the maintainability of your code. By grouping related statements into functions, you can make your code more modular, readable, and easier to maintain.
+
+## Reference
+For more details on the allowed and disallowed constructs at this phase, refer to the [Functions as Shorthands](teaching_order.md#functions-as-shorthands) section in the `docs/teaching_order.md` file.

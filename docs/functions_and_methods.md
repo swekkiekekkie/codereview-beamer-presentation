@@ -80,3 +80,6 @@ Console.WriteLine("Perimeter: " + perimeter);
 ```
 
 In the refactored code, we have defined two functions: `CalculateArea` and `CalculatePerimeter`. These functions encapsulate the logic for calculating the area and perimeter of a rectangle, respectively. By calling these functions, we avoid repeating the same code and make the program more modular and readable.
+
+## Reference
+For more details on the allowed and disallowed constructs at this phase, refer to the [Functions and Methods](teaching_order.md#functions-and-methods) section in the `docs/teaching_order.md` file.

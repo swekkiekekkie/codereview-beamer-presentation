@@ -77,3 +77,6 @@ int Factorial(int n) {
 int result = Factorial(5);
 Console.WriteLine(result); // Output: 120
 ```
+
+## Reference
+For more details on the allowed and disallowed constructs at this phase, refer to the [Computational Thinking](teaching_order.md#computational-thinking) section in the `docs/teaching_order.md` file.

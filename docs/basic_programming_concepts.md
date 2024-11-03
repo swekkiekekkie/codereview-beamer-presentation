@@ -37,3 +37,6 @@ if (age > 18) {
     Console.WriteLine("Minor");
 }
 ```
+
+## Reference
+For more details on the allowed and disallowed constructs at this phase, refer to the [Basic Programming Concepts](teaching_order.md#basic-programming-concepts) section in the `docs/teaching_order.md` file.

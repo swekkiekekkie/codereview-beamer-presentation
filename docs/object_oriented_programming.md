@@ -83,3 +83,6 @@ BankAccount account = new BankAccount();
 account.Deposit(100);
 Console.WriteLine(account.GetBalance()); // Output: 100
 ```
+
+## Reference
+For more details on the allowed and disallowed constructs at this phase, refer to the [Object-Oriented Programming](teaching_order.md#object-oriented-programming) section in the `docs/teaching_order.md` file.

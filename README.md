@@ -9,3 +9,4 @@ This repository contains a LaTeX beamer presentation that introduces basic progr
 3. [Object-Oriented Programming](docs/object_oriented_programming.md)
 4. [Computational Thinking](docs/computational_thinking.md)
 5. [Functions as Shorthands](docs/functions_as_shorthands.md)
+6. [Teaching Order](docs/teaching_order.md)
