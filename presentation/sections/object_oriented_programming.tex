@@ -8,7 +8,7 @@
     \item Objects are instances of classes.
     \item Example in C\#:
 \end{itemize}
-\begin{verbatim}
+\begin{lstlisting}
 class Person {
     public string Name;
     public int Age;
@@ -22,7 +22,7 @@ Person person = new Person();
 person.Name = "Bob";
 person.Age = 25;
 person.Greet(); // Output: Hello, my name is Bob
-\end{verbatim}
+\end{lstlisting}
 \end{frame}
 
 \subsection{Encapsulation}
@@ -32,7 +32,7 @@ person.Greet(); // Output: Hello, my name is Bob
     \item Encapsulation is the concept of hiding the internal state and requiring all interaction to be performed through an object's methods.
     \item Example in C\#:
 \end{itemize}
-\begin{verbatim}
+\begin{lstlisting}
 class BankAccount {
     private double balance;
 
@@ -50,5 +50,5 @@ class BankAccount {
 BankAccount account = new BankAccount();
 account.Deposit(100);
 Console.WriteLine(account.GetBalance()); // Output: 100
-\end{verbatim}
+\end{lstlisting}
 \end{frame}
