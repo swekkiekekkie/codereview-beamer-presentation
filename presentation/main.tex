@@ -1,0 +1,167 @@
+\documentclass{beamer}
+
+\title{Introduction to Programming Concepts in C\#}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+
+\section{Basic Programming Concepts}
+\begin{frame}
+\frametitle{Basic Programming Concepts}
+\begin{itemize}
+    \item Variables
+    \item Data Types
+    \item Control Flow
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Variables}
+\begin{itemize}
+    \item Variables are used to store data.
+    \item Example in C\#:
+\end{itemize}
+\begin{verbatim}
+int x = 5;
+string name = "John";
+\end{verbatim}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Data Types}
+\begin{itemize}
+    \item Data types define the type of data a variable can hold.
+    \item Example in C\#:
+\end{itemize}
+\begin{verbatim}
+int age = 30;
+double salary = 50000.50;
+bool isEmployed = true;
+\end{verbatim}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Control Flow}
+\begin{itemize}
+    \item Control flow statements control the order in which instructions are executed.
+    \item Example in C\#:
+\end{itemize}
+\begin{verbatim}
+if (age > 18) {
+    Console.WriteLine("Adult");
+} else {
+    Console.WriteLine("Minor");
+}
+\end{verbatim}
+\end{frame}
+
+\section{Functions and Methods}
+\begin{frame}
+\frametitle{Functions and Methods}
+\begin{itemize}
+    \item Defining and Calling Functions
+    \item Passing Arguments to Parameters
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Defining and Calling Functions}
+\begin{itemize}
+    \item Functions are blocks of code that perform a specific task.
+    \item Example in C\#:
+\end{itemize}
+\begin{verbatim}
+int Add(int a, int b) {
+    return a + b;
+}
+
+int result = Add(3, 4);
+Console.WriteLine(result); // Output: 7
+\end{verbatim}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Passing Arguments to Parameters}
+\begin{itemize}
+    \item Arguments are values passed to a function when it is called.
+    \item Parameters are variables that hold the values of the arguments.
+    \item Example in C\#:
+\end{itemize}
+\begin{verbatim}
+void Greet(string name) {
+    Console.WriteLine("Hello, " + name);
+}
+
+Greet("Alice"); // Output: Hello, Alice
+\end{verbatim}
+\end{frame}
+
+\section{Object-Oriented Programming}
+\begin{frame}
+\frametitle{Object-Oriented Programming}
+\begin{itemize}
+    \item Classes and Objects
+    \item Encapsulation
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Classes and Objects}
+\begin{itemize}
+    \item Classes are blueprints for creating objects.
+    \item Objects are instances of classes.
+    \item Example in C\#:
+\end{itemize}
+\begin{verbatim}
+class Person {
+    public string Name;
+    public int Age;
+
+    public void Greet() {
+        Console.WriteLine("Hello, my name is " + Name);
+    }
+}
+
+Person person = new Person();
+person.Name = "Bob";
+person.Age = 25;
+person.Greet(); // Output: Hello, my name is Bob
+\end{verbatim}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Encapsulation}
+\begin{itemize}
+    \item Encapsulation is the concept of hiding the internal state and requiring all interaction to be performed through an object's methods.
+    \item Example in C\#:
+\end{itemize}
+\begin{verbatim}
+class BankAccount {
+    private double balance;
+
+    public void Deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+
+    public double GetBalance() {
+        return balance;
+    }
+}
+
+BankAccount account = new BankAccount();
+account.Deposit(100);
+Console.WriteLine(account.GetBalance()); // Output: 100
+\end{verbatim}
+\end{frame}
+
+\end{document}
