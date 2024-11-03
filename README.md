@@ -1,2 +1,1 @@
-# codereview-beamer-presentation
-A repository for a LaTeX beamer presentation with C# code examples
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
