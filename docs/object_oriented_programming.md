@@ -55,3 +55,31 @@ Console.WriteLine(account.GetBalance()); // Output: 100
 ```
 
 In this example, the `BankAccount` class encapsulates the `balance` field by making it private. The `Deposit` and `GetBalance` methods provide controlled access to the `balance` field.
+
+## Computational Thinking
+
+Computational thinking is a problem-solving process that involves breaking down complex problems into smaller, more manageable subproblems. This approach allows us to tackle each subproblem individually, making it easier to find solutions and implement them in a programming language.
+
+### Example: Managing a Bank Account
+
+The `BankAccount` class encapsulates the problem of managing a bank account balance into subproblems by providing methods for depositing money and retrieving the balance.
+
+```csharp
+class BankAccount {
+    private double balance;
+
+    public void Deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+
+    public double GetBalance() {
+        return balance;
+    }
+}
+
+BankAccount account = new BankAccount();
+account.Deposit(100);
+Console.WriteLine(account.GetBalance()); // Output: 100
+```

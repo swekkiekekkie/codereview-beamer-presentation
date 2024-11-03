@@ -24,3 +24,16 @@ if (age > 18) {
     Console.WriteLine("Minor");
 }
 ```
+
+## Computational Thinking
+Computational thinking is a problem-solving process that involves breaking down complex problems into smaller, more manageable subproblems. This approach allows us to tackle each subproblem individually, making it easier to find solutions and implement them in a programming language.
+
+### Example: Control Flow
+The concept of control flow can be broken down into subproblems using if-else statements to handle different conditions.
+```csharp
+if (age > 18) {
+    Console.WriteLine("Adult");
+} else {
+    Console.WriteLine("Minor");
+}
+```
