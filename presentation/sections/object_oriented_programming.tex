@@ -1,0 +1,54 @@
+\section{Object-Oriented Programming}
+
+\subsection{Classes and Objects}
+\begin{frame}[fragile]
+\frametitle{Classes and Objects}
+\begin{itemize}
+    \item Classes are blueprints for creating objects.
+    \item Objects are instances of classes.
+    \item Example in C\#:
+\end{itemize}
+\begin{verbatim}
+class Person {
+    public string Name;
+    public int Age;
+
+    public void Greet() {
+        Console.WriteLine("Hello, my name is " + Name);
+    }
+}
+
+Person person = new Person();
+person.Name = "Bob";
+person.Age = 25;
+person.Greet(); // Output: Hello, my name is Bob
+\end{verbatim}
+\end{frame}
+
+\subsection{Encapsulation}
+\begin{frame}[fragile]
+\frametitle{Encapsulation}
+\begin{itemize}
+    \item Encapsulation is the concept of hiding the internal state and requiring all interaction to be performed through an object's methods.
+    \item Example in C\#:
+\end{itemize}
+\begin{verbatim}
+class BankAccount {
+    private double balance;
+
+    public void Deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+
+    public double GetBalance() {
+        return balance;
+    }
+}
+
+BankAccount account = new BankAccount();
+account.Deposit(100);
+Console.WriteLine(account.GetBalance()); // Output: 100
+\end{verbatim}
+\end{frame}

@@ -1,0 +1,35 @@
+\section{Functions and Methods}
+
+\subsection{Defining and Calling Functions}
+\begin{frame}[fragile]
+\frametitle{Defining and Calling Functions}
+\begin{itemize}
+    \item Functions are blocks of code that perform a specific task.
+    \item Example in C\#:
+\end{itemize}
+\begin{verbatim}
+int Add(int a, int b) {
+    return a + b;
+}
+
+int result = Add(3, 4);
+Console.WriteLine(result); // Output: 7
+\end{verbatim}
+\end{frame}
+
+\subsection{Passing Arguments to Parameters}
+\begin{frame}[fragile]
+\frametitle{Passing Arguments to Parameters}
+\begin{itemize}
+    \item Arguments are values passed to a function when it is called.
+    \item Parameters are variables that hold the values of the arguments.
+    \item Example in C\#:
+\end{itemize}
+\begin{verbatim}
+void Greet(string name) {
+    Console.WriteLine("Hello, " + name);
+}
+
+Greet("Alice"); // Output: Hello, Alice
+\end{verbatim}
+\end{frame}
